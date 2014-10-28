@@ -24,27 +24,30 @@
   <body>
 
     <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-        <li>Bourbon & Neat</li>
-        <li>UnderscoreJS</li>
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+      <h2>Favorite Movies</h2>
+      <ul id="movies"></ul>
+      <!-- <h2>Favorite Shows</h2>
+      <ul id="shows"></ul> -->
     </div>
+
+    <!-- /*<script id="movies" type="text/x-handlebars-template">
+
+    </script>
+
+    <script id="shows" type="text/x-handlebars-template">
+
+    </script>*/ -->
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/handlebars/handlebars.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/templates.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
